@@ -1,15 +1,20 @@
-const Pet = (props) => {                    // function component
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, props.name),
-    React.createElement("h2", {}, props.animal),
-    React.createElement("h2", {}, props.breed)
-  ]);
-}
+import React from 'react';
+import { render } from 'react-dom';
+import Pet from './Pet';
+
 
 class App extends React.Component {
+  handleTitleClick() {
+    alert("Look at how you started that touching");
+  }
   render() {
-    return React.createElement("div", {}, [   // {} attributes (e.g. an id tag); 3rd is child attributes
-      React.createElement("h1", {}, "Adopt Me!"),
+    return React.createElement("div", {}, [
+      // {} attributes (e.g. an id tag); 3rd is child attributes
+      React.createElement(
+        "h1",
+        { onClick: this.handleTitleClick },
+        "Adopt Me!"
+      ),
       React.createElement(Pet, {
         name: "Lieu",
         animal: "dog",
@@ -30,5 +35,4 @@ class App extends React.Component {
 }
 
 // do something with the component:
-ReactDOM.render(React.createElement(App), document.getElementById('root'))
-
+render(React.createElement(App), document.getElementById("root"));

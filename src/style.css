@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
   color: #333;
+  padding-left: 10px;
 }
 
 body {
-  background-color: #ad343e;
+  background-color: #d67d84;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
