@@ -5,7 +5,7 @@
   "main": "src/App.js",
   "scripts": {
     "test": "",
-    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,md,css,json}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html"
   },
