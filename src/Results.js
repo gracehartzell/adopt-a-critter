@@ -9,13 +9,9 @@ const petfinder = pf({
 });
 
 class Results extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      pets: []
-    };
-  }
+  state = {   // need to do babel configuration for this to be acceptable
+    pets: []
+  };
 
   componentDidMount() {
     petfinder.pet

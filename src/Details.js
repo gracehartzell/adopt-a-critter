@@ -40,9 +40,9 @@ class Details extends React.Component {
           loading: false
         });
       })
-      .catch(err => {
-        navigate("/"); // if error loading, navigate back to home
-      });
+      .catch(() => {
+          navigate("/");
+        });
   }
 
   render() {
