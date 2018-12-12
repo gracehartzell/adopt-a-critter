@@ -12,8 +12,7 @@ body {
 }
 
 .search,
-.details,
-.search-params {
+.details {
   background-color: rgba(226, 219, 190, 0.61);
   width: 95%;
   margin: 0 auto;
@@ -71,7 +70,7 @@ body {
 }
 
 header a {
-  color: #D5D6AA;
+  color: #dcdd99;
   font-size: 50px;
   text-decoration: none;
   font-weight: bold;
@@ -135,9 +134,19 @@ header {
   opacity: 0.6;
 }
 
+.search-params {
+  background-color: rgba(226, 219, 190, 0.61);
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .search-params label {
   display: block;
-  max-width: 30%;
+  width: 60%;
 }
 
 .search-params input,
@@ -151,7 +160,7 @@ header {
 .search-params button,
 #modal button,
 .details button {
-  background-color: #188FA7;
+  background-color: #769fb6;
   padding: 5px 25px;
   color: white;
   font-size: 18px;
@@ -163,15 +172,15 @@ header {
 }
 
 .search-params button:hover {
-  background-color: #c36b72;
+  background-color: #188fa7;
 }
 
 .search-params button:active {
-  background-color: #5f1d22;
+  background-color: #116c7e;
 }
 
 .search-params button:focus {
-  border: 1px solid cornflowerblue;
+  border: 1px solid black;
 }
 
 #modal {
