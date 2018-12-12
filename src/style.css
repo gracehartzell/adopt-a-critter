@@ -131,13 +131,13 @@ header {
 }
 
 .carousel-smaller > img.active {
-  border-color: #ad343e;
+  border-color: rgb(24, 144, 168);
   opacity: 0.6;
 }
 
 .search-params label {
   display: block;
-  width: 60px;
+  max-width: 30%;
 }
 
 .search-params input,
@@ -151,7 +151,7 @@ header {
 .search-params button,
 #modal button,
 .details button {
-  background-color: #ad343e;
+  background-color: #188FA7;
   padding: 5px 25px;
   color: white;
   font-size: 18px;
