@@ -9,7 +9,7 @@ const petfinder = pf({
 });
 
 class Results extends React.Component {
-  state = {   // need to do babel configuration for this to be acceptable
+  state = {
     pets: []
   };
 
