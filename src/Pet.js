@@ -18,7 +18,7 @@ class Pet extends React.Component {
         <div className="info">
           <h1>{name}</h1>
           <h2>
-            {animal} - {breed} - {location}
+            {animal} | {breed} | {location}
           </h2>
         </div>
       </Link>
