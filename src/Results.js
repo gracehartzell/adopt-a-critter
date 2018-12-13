@@ -8,7 +8,6 @@ const petfinder = pf({
   key: process.env.API_KEY,
   secret: process.env.API_SECRET
 });
-// in order to make search box functional, need to wrap the export with the consumer then pass in as props to results
 
 class Results extends React.Component {
   state = {
@@ -74,7 +73,6 @@ class Results extends React.Component {
 }
 
 export default function ResultsWithContext(props) {
-  // if there's an error, ResultsWithContext will show up in the console for easier debugging
   return (
     <Consumer>
       {context => <Results {...props} searchParams={context} />}
