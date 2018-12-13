@@ -1,6 +1,6 @@
 import React from "react";
 import pf from "petfinder-client";
-import Consumer from "./SearchContext";
+import {Consumer} from "./SearchContext";
 import Pet from "./Pet";
 import SearchBox from "./SearchBox";
 
