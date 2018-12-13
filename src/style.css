@@ -77,6 +77,10 @@ header a {
   display: block;
 }
 
+.search-icon {
+  font-size: 25px;
+}
+
 header {
   display: flex;
   align-content: center;
