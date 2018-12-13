@@ -11,7 +11,6 @@ body {
 
 }
 
-.search,
 .details {
   background-color: rgba(226, 219, 190, 0.61);
   width: 95%;
@@ -21,11 +20,12 @@ body {
 }
 
 .pet {
-  width: 100%;
+  background-color: rgba(226, 219, 190, 0.548);
+  width: 90%;
   min-height: 150px;
   display: block;
   overflow: hidden;
-  margin: 15px 0;
+  margin: 15px auto;
   border: 2px solid grey;
   padding: 3px;
 }
@@ -81,7 +81,7 @@ header {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   padding: 20px;
 }
 
@@ -105,10 +105,11 @@ header {
 }
 
 .carousel > img {
-  max-width: 60%;
+  max-height: 75%;
+  width: auto;
+  border: 2px solid black;
   position: relative;
   overflow: hidden;
-  max-height: 80%;
 }
 
 .carousel-smaller {
@@ -151,10 +152,10 @@ header {
 
 .search-params input,
 .search-params select {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 18px;
   height: 30px;
-  width: 325px;
+  width: 130%;
 }
 
 .search-params button,

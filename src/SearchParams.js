@@ -9,7 +9,6 @@ const petfinder = pf({
 class SearchParams extends React.Component {
   state = {
     location: "Austin, TX",
-
     animal: "",
     breed: "",
     breeds: []
@@ -74,7 +73,7 @@ class SearchParams extends React.Component {
             onChange={this.handleAnimalChange}
             onBlur={this.handleAnimalChange}
           >
-            <option />
+            <option>All Available Animals</option>
             {ANIMALS.map(animal => (
               <option key={animal} value={animal}>
                 {animal}
@@ -83,7 +82,7 @@ class SearchParams extends React.Component {
           </select>
         </label>
         <label htmlFor="breed">
-          Breed
+          Breed <small> - Animal selection required </small>
           <select
             id="breed"
             value={this.state.breed}
