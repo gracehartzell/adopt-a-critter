@@ -13,7 +13,7 @@ class Details extends React.Component {
     super(props);
 
     this.state = {
-      loading: true // first render won't have details from API yet
+      loading: true 
     };
   }
 

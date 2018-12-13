@@ -11,9 +11,7 @@ body {
 
 }
 
-.search,
-.details,
-.search-params {
+.details {
   background-color: rgba(226, 219, 190, 0.61);
   width: 95%;
   margin: 0 auto;
@@ -22,11 +20,12 @@ body {
 }
 
 .pet {
-  width: 100%;
+  background-color: rgba(226, 219, 190, 0.548);
+  width: 90%;
   min-height: 150px;
   display: block;
   overflow: hidden;
-  margin: 15px 0;
+  margin: 15px auto;
   border: 2px solid grey;
   padding: 3px;
 }
@@ -71,7 +70,7 @@ body {
 }
 
 header a {
-  color: #D5D6AA;
+  color: #dcdd99;
   font-size: 50px;
   text-decoration: none;
   font-weight: bold;
@@ -82,7 +81,7 @@ header {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   padding: 20px;
 }
 
@@ -106,10 +105,11 @@ header {
 }
 
 .carousel > img {
-  max-width: 60%;
+  max-height: 75%;
+  width: auto;
+  border: 2px solid black;
   position: relative;
   overflow: hidden;
-  max-height: 80%;
 }
 
 .carousel-smaller {
@@ -135,23 +135,33 @@ header {
   opacity: 0.6;
 }
 
+.search-params {
+  background-color: rgba(226, 219, 190, 0.61);
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .search-params label {
   display: block;
-  max-width: 30%;
+  width: 60%;
 }
 
 .search-params input,
 .search-params select {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 18px;
   height: 30px;
-  width: 325px;
+  width: 130%;
 }
 
 .search-params button,
 #modal button,
 .details button {
-  background-color: #188FA7;
+  background-color: #769fb6;
   padding: 5px 25px;
   color: white;
   font-size: 18px;
@@ -163,15 +173,15 @@ header {
 }
 
 .search-params button:hover {
-  background-color: #c36b72;
+  background-color: #188fa7;
 }
 
 .search-params button:active {
-  background-color: #5f1d22;
+  background-color: #116c7e;
 }
 
 .search-params button:focus {
-  border: 1px solid cornflowerblue;
+  border: 1px solid black;
 }
 
 #modal {
