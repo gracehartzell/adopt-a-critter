@@ -13,7 +13,6 @@ class Modal extends React.Component {
     modalRoot.appendChild(this.el);
   }
   componentWillUnmount() {
-    // ^ almost always used for CLEANING UP MEMORY
     modalRoot.removeChild(this.el);
   }
 
