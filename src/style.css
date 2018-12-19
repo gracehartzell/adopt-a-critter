@@ -1,14 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
 * {
   box-sizing: border-box;
   color: #333;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 body {
-  background-color: #769FB6;
+  background-color: #769fb6;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Open Sans Condensed", sans-serif; */
   padding-left: 10px;
-
 }
 
 .details {
@@ -34,7 +36,6 @@ body {
   display: flex;
   width: 100px;
   min-height: 100px;
-
 }
 
 .info {
